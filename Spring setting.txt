@@ -1,0 +1,29 @@
+Spring setting steps
+
+1. install Java, Eclipse, Tomcat
+
+2. JAVA_HOME(java/bin) & CLASSPATH(java/lib)
+
+3. set encode utf-8 ( preference/
+	general/workspace
+	web/CSS file & HTML & JSP
+4. server runtime Setting (Apache Tomcat)
+
+5. version change
+	java<version> = jdk -version
+	eclipse<version> = eclipse - version
+	springframework<version> (ref=https://mvnrepository.com/artifact/org.springframework/spring-core)
+	servlet<dependency>[0] (ref=https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api)
+	test<dependency>[0] (ref=https://mvnrepository.com/artifact/junit/junit)
+
+6. change log4j version to log4j2
+	-pom.xml-
+	logging<dependency>[2] (ref=https://logging.apache.org/log4j/2.x/maven-artifacts.html) Mavensite-Maven,Ivy,Gradle Aritifacts
+	-src/main/resources/log4j.xml- & -src/test/resources/log4j.xml-
+	appender
+
+7.add injection
+	inject<dependency> add.lombok (ref=https://projectlombok.org/setup/maven)
+		downlad jar.file and install or copy on C:\Users\Administrator\eclipse\jee-2020-09\eclipse
+	 
+
