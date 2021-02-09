@@ -4,9 +4,9 @@ Spring setting steps
 
 2. JAVA_HOME(java/bin) & CLASSPATH(java/lib)
 
-3. set encode utf-8 ( preference/
-	general/workspace
-	web/CSS file & HTML & JSP
+3. set encode utf-8 ( preference\
+	general\workspace
+	web\CSS file & HTML & JSP
 4. server runtime Setting (Apache Tomcat)
 
 5. version change
