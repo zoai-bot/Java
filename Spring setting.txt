@@ -17,9 +17,9 @@ Spring setting steps
 	test<dependency>[0] (ref=https://mvnrepository.com/artifact/junit/junit)
 
 6. change log4j version to log4j2
-	-pom.xml-
+	\pom.xml\
 	logging<dependency>[2] (ref=https://logging.apache.org/log4j/2.x/maven-artifacts.html) Mavensite-Maven,Ivy,Gradle Aritifacts
-	-src/main/resources/log4j.xml- & -src/test/resources/log4j.xml-
+	\src/main/resources/log4j.xml\ & \src/test/resources/log4j.xml\
 	appender
 
 7.add injection
