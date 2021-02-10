@@ -20,7 +20,10 @@ Spring setting steps
 	\pom.xml\
 	logging<dependency>[2] (ref=https://logging.apache.org/log4j/2.x/maven-artifacts.html) Mavensite-Maven,Ivy,Gradle Aritifacts
 	\src/main/resources/log4j.xml\ & \src/test/resources/log4j.xml\
-	appender
+	apache Log4j 1.x Migration (ref=:https://logging.apache.org/log4j/2.x/manual/migration.html)
+	Log4j 2 XML configuration<appender>
+	
+	
 
 7.add injection
 	inject<dependency> add.lombok (ref=https://projectlombok.org/setup/maven)
